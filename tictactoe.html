@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>
+        TicTacToe
+    </title>
+    <link rel="stylesheet" href="tictactoe.css">
+
+</head>
+
+<body>
+    <div class="header">
+        TicTacToe!
+        <section>
+            <p class="point">0</p>
+            <p>-</p>
+            <p class="point">0</p>
+        </section>
+    </div>
+    <div class="container">
+    <div class="choice">
+        <button id="x" onclick="ch('X','O')">X</button>
+        <button id="reset" onclick="reset()">Reset</button>
+        <button id="o" onclick="ch('O','X')">O</button>
+    </div>
+   <div class="megawarp">
+    <div class="wrapper">
+        <section class="first">
+        <a class='stylz'id="w1">/</a>
+        <a class='stylz'id="w2">\</a>
+        <a class='stylz'id="b1">|</a>
+        <a class='stylz'id="b2">|</a>
+        <a class='stylz'id="b3">|</a>
+        <a class='stylz'id="a1">_</a>
+        <a class='stylz'id="a2">_</a>
+        <a class='stylz'id="a3">_</a>
+    </section>
+        <div class="col" id="r1">
+            <section class="cell" id="c1"></section>
+            <section class="cell" id="c2"></section>
+            <section class="cell" id="c3"></section>
+        </div>
+        <div class="col" id="r2">
+            <section class="cell" id="c4"></section>
+            <section class="cell" id="c5"></section>
+            <section class="cell" id="c6"></section>
+        </div>
+        <div class="col" id="r3">
+            <section class="cell" id="c7"></section>
+            <section class="cell" id="c8"></section>
+            <section class="cell" id="c9"></section>
+        </div>
+    </div>
+   </div>
+   </div>
+</body>
+<script src="tictactoe.js"></script>
+</html>
